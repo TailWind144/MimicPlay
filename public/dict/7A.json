@@ -1,0 +1,2228 @@
+[
+  {
+    "id": 1,
+    "english": "unit",
+    "pronunciation": "['juːnɪt]",
+    "chinese": "n. 单元",
+    "unit": "七上 Starter Unit 1"
+  },
+  {
+    "id": 2,
+    "english": "starter unit",
+    "pronunciation": "",
+    "chinese": "过渡单元",
+    "unit": "七上 Starter Unit 1"
+  },
+  {
+    "id": 3,
+    "english": "section",
+    "pronunciation": "['sekʃn]",
+    "chinese": "n. 部分；地区",
+    "unit": "七上 Starter Unit 1"
+  },
+  {
+    "id": 4,
+    "english": "greet",
+    "pronunciation": "[ɡriːt]",
+    "chinese": "v. 招呼；问候",
+    "unit": "七上 Starter Unit 1"
+  },
+  {
+    "id": 5,
+    "english": "spell",
+    "pronunciation": "[spel]",
+    "chinese": "v. 用字母拼；拼写",
+    "unit": "七上 Starter Unit 1"
+  },
+  {
+    "id": 6,
+    "english": "start",
+    "pronunciation": "[stɑːt]",
+    "chinese": "v. 开始；着手",
+    "unit": "七上 Starter Unit 1"
+  },
+  {
+    "id": 7,
+    "english": "conversation",
+    "pronunciation": "[ˌkɒnvə'seɪʃn]",
+    "chinese": "n. 谈话；交谈",
+    "unit": "七上 Starter Unit 1"
+  },
+  {
+    "id": 8,
+    "english": "oh",
+    "pronunciation": "[əʊ]",
+    "chinese": "int. 哦；啊",
+    "unit": "七上 Starter Unit 1"
+  },
+  {
+    "id": 9,
+    "english": "bell",
+    "pronunciation": "[bel]",
+    "chinese": "n. 铃(声)；钟(声)",
+    "unit": "七上 Starter Unit 1"
+  },
+  {
+    "id": 10,
+    "english": "Helen",
+    "pronunciation": "['helən]",
+    "chinese": "海伦",
+    "unit": "七上 Starter Unit 1"
+  },
+  {
+    "id": 11,
+    "english": "Ella",
+    "pronunciation": "[ˈɛlə]",
+    "chinese": "埃拉",
+    "unit": "七上 Starter Unit 1"
+  },
+  {
+    "id": 12,
+    "english": "Emma",
+    "pronunciation": "[ˈemə]",
+    "chinese": "埃玛",
+    "unit": "七上 Starter Unit 1"
+  },
+  {
+    "id": 13,
+    "english": "Peter",
+    "pronunciation": "['piːtə(r)]",
+    "chinese": "彼得",
+    "unit": "七上 Starter Unit 1"
+  },
+  {
+    "id": 14,
+    "english": "Brown",
+    "pronunciation": "[braʊn]",
+    "chinese": "布朗",
+    "unit": "七上 Starter Unit 1"
+  },
+  {
+    "id": 15,
+    "english": "PLA",
+    "pronunciation": "",
+    "chinese": "abbr. 中国人民解放军",
+    "unit": "七上 Starter Unit 1"
+  },
+  {
+    "id": 16,
+    "english": "VR",
+    "pronunciation": "",
+    "chinese": "abbr. 虚拟现实",
+    "unit": "七上 Starter Unit 1"
+  },
+  {
+    "id": 17,
+    "english": "CD",
+    "pronunciation": "",
+    "chinese": "abbr. 光盘",
+    "unit": "七上 Starter Unit 1"
+  },
+  {
+    "id": 18,
+    "english": "PRC",
+    "pronunciation": "",
+    "chinese": "abbr. 中华人民共和国",
+    "unit": "七上 Starter Unit 1"
+  },
+  {
+    "id": 19,
+    "english": "UN",
+    "pronunciation": "",
+    "chinese": "abbr. 联合国",
+    "unit": "七上 Starter Unit 1"
+  },
+  {
+    "id": 20,
+    "english": "Miller",
+    "pronunciation": "['mɪlə(r)]",
+    "chinese": "米勒",
+    "unit": "七上 Starter Unit 1"
+  },
+  {
+    "id": 21,
+    "english": "bottle",
+    "pronunciation": "['bɒtl]",
+    "chinese": "n. 瓶子",
+    "unit": "七上 Starter Unit 2"
+  },
+  {
+    "id": 22,
+    "english": "eraser",
+    "pronunciation": "[ɪ'reɪzə(r)]",
+    "chinese": "n. 橡皮",
+    "unit": "七上 Starter Unit 2"
+  },
+  {
+    "id": 23,
+    "english": "key",
+    "pronunciation": "[kiː]",
+    "chinese": "n. 钥匙；关键",
+    "unit": "七上 Starter Unit 2"
+  },
+  {
+    "id": 24,
+    "english": "thing",
+    "pronunciation": "[θɪŋ]",
+    "chinese": "n. 东西；事情",
+    "unit": "七上 Starter Unit 2"
+  },
+  {
+    "id": 25,
+    "english": "need",
+    "pronunciation": "[niːd]",
+    "chinese": "v. & n. 需要",
+    "unit": "七上 Starter Unit 2"
+  },
+  {
+    "id": 26,
+    "english": "you’re welcome",
+    "pronunciation": "",
+    "chinese": "别客气；不用谢",
+    "unit": "七上 Starter Unit 2"
+  },
+  {
+    "id": 27,
+    "english": "fun",
+    "pronunciation": "[fʌn]",
+    "chinese": "n. 乐趣；快乐 adj. 有趣的；使人快乐的",
+    "unit": "七上 Starter Unit 3"
+  },
+  {
+    "id": 28,
+    "english": "yard",
+    "pronunciation": "[jɑːd]",
+    "chinese": "n. 院子；园圃",
+    "unit": "七上 Starter Unit 3"
+  },
+  {
+    "id": 29,
+    "english": "carrot",
+    "pronunciation": "['kærət]",
+    "chinese": "n. 胡萝卜",
+    "unit": "七上 Starter Unit 3"
+  },
+  {
+    "id": 30,
+    "english": "goose",
+    "pronunciation": "[ɡuːs]",
+    "chinese": "n. (pl. geese) 鹅",
+    "unit": "七上 Starter Unit 3"
+  },
+  {
+    "id": 31,
+    "english": "count",
+    "pronunciation": "[kaʊnt]",
+    "chinese": "v. 数数",
+    "unit": "七上 Starter Unit 3"
+  },
+  {
+    "id": 32,
+    "english": "another",
+    "pronunciation": "[ə'nʌðə(r)]",
+    "chinese": "adj. & pron. 另一；又一(人或事物)",
+    "unit": "七上 Starter Unit 3"
+  },
+  {
+    "id": 33,
+    "english": "else",
+    "pronunciation": "[els]",
+    "chinese": "adv. 其他的；别的",
+    "unit": "七上 Starter Unit 3"
+  },
+  {
+    "id": 34,
+    "english": "look at",
+    "pronunciation": "",
+    "chinese": "看；瞧",
+    "unit": "七上 Starter Unit 3"
+  },
+  {
+    "id": 35,
+    "english": "make friends",
+    "pronunciation": "",
+    "chinese": "交朋友",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 36,
+    "english": "get to know",
+    "pronunciation": "",
+    "chinese": "认识；了解",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 37,
+    "english": "each",
+    "pronunciation": "[iːtʃ]",
+    "chinese": "adj. & pron. 每个；各自",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 38,
+    "english": "other",
+    "pronunciation": "['ʌðə(r)]",
+    "chinese": "pron. 另外的人(或物) adj. 另外的；其他的",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 39,
+    "english": "each other",
+    "pronunciation": "",
+    "chinese": "互相；彼此",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 40,
+    "english": "full",
+    "pronunciation": "[fʊl]",
+    "chinese": "adj. 完整的；满的",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 41,
+    "english": "full name",
+    "pronunciation": "",
+    "chinese": "全名",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 42,
+    "english": "grade",
+    "pronunciation": "[ɡreɪd]",
+    "chinese": "n. 年级；等级",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 43,
+    "english": "last name",
+    "pronunciation": "",
+    "chinese": "姓氏",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 44,
+    "english": "classmate",
+    "pronunciation": "['klɑːsmeɪt]",
+    "chinese": "n. 同班同学",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 45,
+    "english": "class teacher",
+    "pronunciation": "",
+    "chinese": "班主任",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 46,
+    "english": "first name",
+    "pronunciation": "",
+    "chinese": "名字",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 47,
+    "english": "mistake",
+    "pronunciation": "[mɪ'steɪk]",
+    "chinese": "n. 错误；失误",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 48,
+    "english": "country",
+    "pronunciation": "['kʌntri]",
+    "chinese": "n. 国家",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 49,
+    "english": "same",
+    "pronunciation": "[seɪm]",
+    "chinese": "adj. 相同的",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 50,
+    "english": "twin",
+    "pronunciation": "[twɪn]",
+    "chinese": "n. 双胞胎之一 adj. 双胞胎之一的",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 51,
+    "english": "both",
+    "pronunciation": "[bəʊθ]",
+    "chinese": "adj. & pron. 两个；两个都",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 52,
+    "english": "band",
+    "pronunciation": "[bænd]",
+    "chinese": "n. 乐队",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 53,
+    "english": "pot",
+    "pronunciation": "[pɒt]",
+    "chinese": "n. 锅",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 54,
+    "english": "a lot",
+    "pronunciation": "",
+    "chinese": "很；非常",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 55,
+    "english": "tofu",
+    "pronunciation": "['təʊfuː]",
+    "chinese": "n. 豆腐",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 56,
+    "english": "parrot",
+    "pronunciation": "['pærət]",
+    "chinese": "n. 鹦鹉",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 57,
+    "english": "guitar",
+    "pronunciation": "[ɡɪ'tɑː(r)]",
+    "chinese": "n. 吉他",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 58,
+    "english": "tennis",
+    "pronunciation": "['tenɪs]",
+    "chinese": "n. 网球",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 59,
+    "english": "post",
+    "pronunciation": "[pəʊst]",
+    "chinese": "n. 帖子；邮政 v. 邮寄；发布",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 60,
+    "english": "even",
+    "pronunciation": "['iːvn]",
+    "chinese": "adv. 甚至；连；愈加",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 61,
+    "english": "hey",
+    "pronunciation": "[heɪ]",
+    "chinese": "int. 嘿；喂",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 62,
+    "english": "play the guitar",
+    "pronunciation": "",
+    "chinese": "弹吉他",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 63,
+    "english": "would",
+    "pronunciation": "[wʊd]",
+    "chinese": "model v. 想(用于礼貌地邀请或向某人提供某物）；将会",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 64,
+    "english": "would(’d) like to",
+    "pronunciation": "",
+    "chinese": "表示愿意；喜欢",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 65,
+    "english": "information",
+    "pronunciation": "[ˌɪnfə'meɪʃn]",
+    "chinese": "n. 信息；消息",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 66,
+    "english": "hobby",
+    "pronunciation": "['hɒbi]",
+    "chinese": "n. 业余爱好",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 67,
+    "english": "Green",
+    "pronunciation": "[ɡriːn]",
+    "chinese": "格林",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 68,
+    "english": "UK",
+    "pronunciation": "[ˌjuː'keɪ]",
+    "chinese": "英国",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 69,
+    "english": "US",
+    "pronunciation": "[ˌjuː'es]",
+    "chinese": "美国",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 70,
+    "english": "Smith",
+    "pronunciation": "[smɪθ]",
+    "chinese": "史密斯",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 71,
+    "english": "Lisa",
+    "pronunciation": "[ˈliːsə]",
+    "chinese": "莉萨",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 72,
+    "english": "Tom",
+    "pronunciation": "[tɒm]",
+    "chinese": "汤姆",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 73,
+    "english": "hot pot",
+    "pronunciation": "",
+    "chinese": "火锅",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 74,
+    "english": "Sally",
+    "pronunciation": "['sæli]",
+    "chinese": "萨莉",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 75,
+    "english": "Wood",
+    "pronunciation": "[wʊd]",
+    "chinese": "伍德",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 76,
+    "english": "Sydney",
+    "pronunciation": "['sɪdni]",
+    "chinese": "悉尼(澳大利亚城市)",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 77,
+    "english": "Australia",
+    "pronunciation": "[ɒ'streɪlɪə]",
+    "chinese": "澳大利亚",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 78,
+    "english": "Mapo tofu",
+    "pronunciation": "",
+    "chinese": "麻婆豆腐",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 79,
+    "english": "Beijing roast duck",
+    "pronunciation": "",
+    "chinese": "北京烤鸭",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 80,
+    "english": "Singapore",
+    "pronunciation": "[ˌsiŋgə'pɔ:]",
+    "chinese": "新加坡",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 81,
+    "english": "Pauline",
+    "pronunciation": "[ˈpɔːliːn]",
+    "chinese": "保利娜",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 82,
+    "english": "Lee",
+    "pronunciation": "[liː]",
+    "chinese": "李",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 83,
+    "english": "Coco",
+    "pronunciation": "['kəʊkəʊ]",
+    "chinese": "科科",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 84,
+    "english": "London",
+    "pronunciation": "['lʌndən]",
+    "chinese": "伦敦(英国首都)",
+    "unit": "七上 Unit 1"
+  },
+  {
+    "id": 85,
+    "english": "mean",
+    "pronunciation": "[miːn]",
+    "chinese": "v. 意思是；打算",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 86,
+    "english": "husband",
+    "pronunciation": "['hʌzbənd]",
+    "chinese": "n. 丈夫",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 87,
+    "english": "bat",
+    "pronunciation": "[bæt]",
+    "chinese": "n. 球棒；球拍",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 88,
+    "english": "ping-pong bat",
+    "pronunciation": "",
+    "chinese": "乒乓球拍",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 89,
+    "english": "play ping-pong",
+    "pronunciation": "",
+    "chinese": "打乒乓球",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 90,
+    "english": "every day",
+    "pronunciation": "",
+    "chinese": "每天",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 91,
+    "english": "together",
+    "pronunciation": "[tə'ɡeðə(r)]",
+    "chinese": "adv. 在一起；共同",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 92,
+    "english": "fishing rod",
+    "pronunciation": "",
+    "chinese": "钓竿",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 93,
+    "english": "spend",
+    "pronunciation": "[spend]",
+    "chinese": "v. 花(时间、钱等)",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 94,
+    "english": "a lot of / lots of",
+    "pronunciation": "",
+    "chinese": "大量；许多",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 95,
+    "english": "really",
+    "pronunciation": "['riːəli]",
+    "chinese": "adv. 非常；确实；真正地",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 96,
+    "english": "activity",
+    "pronunciation": "[æk'tɪvɪtɪ]",
+    "chinese": "n. 活动",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 97,
+    "english": "chess",
+    "pronunciation": "[tʃes]",
+    "chinese": "n. 国际象棋",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 98,
+    "english": "Chinese chess",
+    "pronunciation": "",
+    "chinese": "中国象棋",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 99,
+    "english": "funny",
+    "pronunciation": "['fʌni]",
+    "chinese": "adj. 好笑的；奇怪的",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 100,
+    "english": "laugh",
+    "pronunciation": "[lɑːf]",
+    "chinese": "v. 笑；发笑 n. 笑声",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 101,
+    "english": "different",
+    "pronunciation": "['dɪfrənt]",
+    "chinese": "adj. 不同的",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 102,
+    "english": "violin",
+    "pronunciation": "[ˌvaɪə'lɪn]",
+    "chinese": "n. 小提琴",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 103,
+    "english": "have fun",
+    "pronunciation": "",
+    "chinese": "玩得高兴",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 104,
+    "english": "pink",
+    "pronunciation": "[pɪŋk]",
+    "chinese": "adj. & n. 粉红色(的)",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 105,
+    "english": "hat",
+    "pronunciation": "[hæt]",
+    "chinese": "n. 帽子",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 106,
+    "english": "handsome",
+    "pronunciation": "['hænsəm]",
+    "chinese": "adj. 英俊的",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 107,
+    "english": "knee",
+    "pronunciation": "[niː]",
+    "chinese": "n. 膝；膝盖",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 108,
+    "english": "at night",
+    "pronunciation": "",
+    "chinese": "在夜晚",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 109,
+    "english": "in the middle",
+    "pronunciation": "",
+    "chinese": "中间；中部",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 110,
+    "english": "grandchild",
+    "pronunciation": "['ɡræntʃaɪld]",
+    "chinese": "n. (pl. grandchildren) (外)孙子；(外)孙女",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 111,
+    "english": "son",
+    "pronunciation": "[sʌn]",
+    "chinese": "n. 儿子",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 112,
+    "english": "next to",
+    "pronunciation": "",
+    "chinese": "紧邻；在……近旁",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 113,
+    "english": "hike",
+    "pronunciation": "[haɪk]",
+    "chinese": "v. & n. 远足；徒步旅行",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 114,
+    "english": "go hiking",
+    "pronunciation": "",
+    "chinese": "远足；徒步旅行",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 115,
+    "english": "David",
+    "pronunciation": "['deɪvɪd]",
+    "chinese": "戴维",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 116,
+    "english": "Jim",
+    "pronunciation": "[dʒɪm]",
+    "chinese": "吉姆",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 117,
+    "english": "Kate",
+    "pronunciation": "[keit]",
+    "chinese": "凯特",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 118,
+    "english": "Lily",
+    "pronunciation": "['lɪli]",
+    "chinese": "莉莉",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 119,
+    "english": "Ireland",
+    "pronunciation": "['aɪələnd]",
+    "chinese": "爱尔兰",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 120,
+    "english": "Fred",
+    "pronunciation": "[fred]",
+    "chinese": "弗雷德",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 121,
+    "english": "Sam",
+    "pronunciation": "[ˈsæm]",
+    "chinese": "萨姆",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 122,
+    "english": "Jane",
+    "pronunciation": "[dʒein]",
+    "chinese": "简",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 123,
+    "english": "Jack",
+    "pronunciation": "[dʒæk]",
+    "chinese": "杰克",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 124,
+    "english": "Sarah",
+    "pronunciation": "[ˈseərə]",
+    "chinese": "萨拉",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 125,
+    "english": "Oscar",
+    "pronunciation": "['ɒskə(r)]",
+    "chinese": "奥斯卡",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 126,
+    "english": "Lucy",
+    "pronunciation": "[ˈluːsi]",
+    "chinese": "露西",
+    "unit": "七上 Unit 2"
+  },
+  {
+    "id": 127,
+    "english": "hall",
+    "pronunciation": "[hɔːl]",
+    "chinese": "n. 礼堂；大厅",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 128,
+    "english": "dining hall",
+    "pronunciation": "",
+    "chinese": "餐厅",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 129,
+    "english": "in front of",
+    "pronunciation": "",
+    "chinese": "在……前面",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 130,
+    "english": "building",
+    "pronunciation": "['bɪldɪŋ]",
+    "chinese": "n. 建筑物；房子",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 131,
+    "english": "across",
+    "pronunciation": "[ə'krɒs]",
+    "chinese": "prep. & adv. 过；穿过",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 132,
+    "english": "across from",
+    "pronunciation": "",
+    "chinese": "在对面",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 133,
+    "english": "field",
+    "pronunciation": "[fiːld]",
+    "chinese": "n. 场地；田地",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 134,
+    "english": "sports field",
+    "pronunciation": "",
+    "chinese": "运动场",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 135,
+    "english": "gym",
+    "pronunciation": "[dʒɪm]",
+    "chinese": "n. (=gymnasium) 体育馆；健身房",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 136,
+    "english": "office",
+    "pronunciation": "['ɒfɪs]",
+    "chinese": "n. 办公室",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 137,
+    "english": "large",
+    "pronunciation": "[lɑːdʒ]",
+    "chinese": "adj. 大的；大号的",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 138,
+    "english": "special",
+    "pronunciation": "['speʃl]",
+    "chinese": "adj. 特别的；特殊的",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 139,
+    "english": "smart",
+    "pronunciation": "[smɑːt]",
+    "chinese": "adj. 智能的；聪明的",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 140,
+    "english": "whiteboard",
+    "pronunciation": "['waɪtbɔːd]",
+    "chinese": "n. 白板；白色书写板",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 141,
+    "english": "put up",
+    "pronunciation": "",
+    "chinese": "张贴；搭建",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 142,
+    "english": "important",
+    "pronunciation": "[ɪmˈpɔːtnt]",
+    "chinese": "adj. 重要的",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 143,
+    "english": "notice",
+    "pronunciation": "['nəʊtɪs]",
+    "chinese": "n. 通知；注意 v. 注意到；意识到",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 144,
+    "english": "locker",
+    "pronunciation": "['lɒkə(r)]",
+    "chinese": "n. 有锁存物柜；寄物柜",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 145,
+    "english": "drawer",
+    "pronunciation": "[drɔː(r)]",
+    "chinese": "n. 抽屉",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 146,
+    "english": "at the back (of)",
+    "pronunciation": "",
+    "chinese": "在(……)后面",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 147,
+    "english": "corner",
+    "pronunciation": "['kɔːnə(r)]",
+    "chinese": "n. 角；墙角；街角",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 148,
+    "english": "bookcase",
+    "pronunciation": "['bʊkkeɪs]",
+    "chinese": "n. 书架；书柜",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 149,
+    "english": "screen",
+    "pronunciation": "[skriːn]",
+    "chinese": "n. 屏幕；银幕",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 150,
+    "english": "at school",
+    "pronunciation": "",
+    "chinese": "在学校",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 151,
+    "english": "modern",
+    "pronunciation": "['mɒdn]",
+    "chinese": "adj. 现代的；当代的",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 152,
+    "english": "do exercises",
+    "pronunciation": "",
+    "chinese": "做体操",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 153,
+    "english": "amazing",
+    "pronunciation": "[ə'meɪzɪŋ]",
+    "chinese": "adj. 令人惊奇(惊喜或惊叹)的",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 154,
+    "english": "raise",
+    "pronunciation": "[reɪz]",
+    "chinese": "v. 使升高；提高",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 155,
+    "english": "flag",
+    "pronunciation": "[flæɡ]",
+    "chinese": "n. 旗；旗帜",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 156,
+    "english": "most",
+    "pronunciation": "[məʊst]",
+    "chinese": "adj. & pron. 大多数；最多；最大 adv. 最",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 157,
+    "english": "change",
+    "pronunciation": "[tʃeɪndʒ]",
+    "chinese": "v. & n. 改变；变化",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 158,
+    "english": "seat",
+    "pronunciation": "[siːt]",
+    "chinese": "n. 座位",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 159,
+    "english": "delicious",
+    "pronunciation": "[dɪ'lɪʃəs]",
+    "chinese": "adj. 美味的；可口的",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 160,
+    "english": "How about",
+    "pronunciation": "",
+    "chinese": "……怎么样；如何",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 161,
+    "english": "yours",
+    "pronunciation": "[jɔːz]",
+    "chinese": "pron. (通常写作Yours，用于书信结尾的签名前）你的；您的",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 162,
+    "english": "similar",
+    "pronunciation": "['sɪmələ(r)]",
+    "chinese": "adj. 类似的；相像的",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 163,
+    "english": "similar to",
+    "pronunciation": "",
+    "chinese": "类似的；相像的",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 164,
+    "english": "sound",
+    "pronunciation": "[saʊnd]",
+    "chinese": "v. 听起来；好像 n. 声音；响声",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 165,
+    "english": "bye for now",
+    "pronunciation": "",
+    "chinese": "再见",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 166,
+    "english": "Flora",
+    "pronunciation": "['flɔːrə]",
+    "chinese": "弗洛拉",
+    "unit": "七上 Unit 3"
+  },
+  {
+    "id": 167,
+    "english": "biology",
+    "pronunciation": "[baɪ'ɒlədʒi]",
+    "chinese": "n. 生物学",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 168,
+    "english": "IT",
+    "pronunciation": "",
+    "chinese": "abbr. (=information technology) 信息技术",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 169,
+    "english": "geography",
+    "pronunciation": "[dʒi'ɒɡrəfi]",
+    "chinese": "n. 地理(学)",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 170,
+    "english": "history",
+    "pronunciation": "['hɪstri]",
+    "chinese": "n. 历史；历史课",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 171,
+    "english": "boring",
+    "pronunciation": "['bɔːrɪŋ]",
+    "chinese": "adj. 乏味的；令人生厌的",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 172,
+    "english": "useful",
+    "pronunciation": "['juːsfl]",
+    "chinese": "adj. 有用的；有益的",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 173,
+    "english": "exciting",
+    "pronunciation": "[ɪk'saɪtɪŋ]",
+    "chinese": "adj. 令人激动的；使人兴奋的",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 174,
+    "english": "past",
+    "pronunciation": "[pɑːst]",
+    "chinese": "n. 过去；过去的事情 adj. 过去的 prep. 在…之后",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 175,
+    "english": "good with",
+    "pronunciation": "",
+    "chinese": "灵巧的；善于应付……的",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 176,
+    "english": "number",
+    "pronunciation": "['nʌmbə(r)]",
+    "chinese": "n. 数字；号码",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 177,
+    "english": "help sb with",
+    "pronunciation": "",
+    "chinese": "帮助某人做(某事)",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 178,
+    "english": "reason",
+    "pronunciation": "['riːzn]",
+    "chinese": "n. 原因；理由",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 179,
+    "english": "listen to",
+    "pronunciation": "",
+    "chinese": "听；倾听",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 180,
+    "english": "good at",
+    "pronunciation": "",
+    "chinese": "擅长",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 181,
+    "english": "remember",
+    "pronunciation": "[rɪ'membə(r)]",
+    "chinese": "v. 记住；记起",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 182,
+    "english": "everyone",
+    "pronunciation": "['evriwʌn]",
+    "chinese": "pron. 每人；所有人",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 183,
+    "english": "as",
+    "pronunciation": "[əz]",
+    "chinese": "prep. 如同；作为 conj. 当……时；由于",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 184,
+    "english": "AM",
+    "pronunciation": "",
+    "chinese": "(=a.m.) 上午",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 185,
+    "english": "PM",
+    "pronunciation": "",
+    "chinese": "(=p.m.) 下午",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 186,
+    "english": "French",
+    "pronunciation": "[frentʃ]",
+    "chinese": "n. 法语 adj. 法国的；法国人的",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 187,
+    "english": "excellent",
+    "pronunciation": "['eksələnt]",
+    "chinese": "adj. 优秀的；极好的",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 188,
+    "english": "instrument",
+    "pronunciation": "['ɪnstrəmənt]",
+    "chinese": "n. 器械；工具",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 189,
+    "english": "singer",
+    "pronunciation": "['sɪŋə(r)]",
+    "chinese": "n. 歌手",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 190,
+    "english": "future",
+    "pronunciation": "[ˈfjuːtʃə(r)]",
+    "chinese": "n. 将来；未来",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 191,
+    "english": "in the future",
+    "pronunciation": "",
+    "chinese": "将来；未来",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 192,
+    "english": "term",
+    "pronunciation": "[tɜːm]",
+    "chinese": "n. 学期",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 193,
+    "english": "work out",
+    "pronunciation": "",
+    "chinese": "计算出；解决",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 194,
+    "english": "problem",
+    "pronunciation": "['prɒbləm]",
+    "chinese": "n. 难题；困难",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 195,
+    "english": "in class",
+    "pronunciation": "",
+    "chinese": "课堂上",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 196,
+    "english": "magic",
+    "pronunciation": "['mædʒɪk]",
+    "chinese": "n. 魔法；魔力；魔术 adj. 有魔力的；有神奇力量的",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 197,
+    "english": "life",
+    "pronunciation": "[laɪf]",
+    "chinese": "n. 生活；生命",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 198,
+    "english": "scientist",
+    "pronunciation": "['saɪəntɪst]",
+    "chinese": "n. 科学家",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 199,
+    "english": "Baker",
+    "pronunciation": "['beɪkə(r)]",
+    "chinese": "贝克",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 200,
+    "english": "Mike",
+    "pronunciation": "[maɪk]",
+    "chinese": "迈克",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 201,
+    "english": "Davis",
+    "pronunciation": "['deivis]",
+    "chinese": "戴维斯",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 202,
+    "english": "Canada",
+    "pronunciation": "['kænədə]",
+    "chinese": "加拿大",
+    "unit": "七上 Unit 4"
+  },
+  {
+    "id": 203,
+    "english": "club",
+    "pronunciation": "[klʌb]",
+    "chinese": "n. 俱乐部；社团",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 204,
+    "english": "join",
+    "pronunciation": "[dʒɔɪn]",
+    "chinese": "v. 参加；加入",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 205,
+    "english": "choose",
+    "pronunciation": "[tʃuːz]",
+    "chinese": "v. 选择；挑选",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 206,
+    "english": "drama",
+    "pronunciation": "['drɑːmə]",
+    "chinese": "n. 戏剧；戏剧表演",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 207,
+    "english": "play Chinese chess",
+    "pronunciation": "",
+    "chinese": "下中国象棋",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 208,
+    "english": "feeling",
+    "pronunciation": "['fiːlɪŋ]",
+    "chinese": "n. 感觉；情感",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 209,
+    "english": "news",
+    "pronunciation": "[njuːz]",
+    "chinese": "n. 消息；新闻",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 210,
+    "english": "musical",
+    "pronunciation": "['mjuːzɪkl]",
+    "chinese": "adj. 音乐的；有音乐天赋的",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 211,
+    "english": "musical instrument",
+    "pronunciation": "['mjuːzɪkl ˈɪnstrəmənt]",
+    "chinese": "乐器",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 212,
+    "english": "exactly",
+    "pronunciation": "[ɪɡ'zæktli]",
+    "chinese": "adv. 正是如此；准确地",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 213,
+    "english": "drum",
+    "pronunciation": "[drʌm]",
+    "chinese": "n. 鼓",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 214,
+    "english": "ability",
+    "pronunciation": "[ə'bɪləti]",
+    "chinese": "n. 能力；才能",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 215,
+    "english": "paint",
+    "pronunciation": "[peɪnt]",
+    "chinese": "v. 用颜料画；在……上刷油漆 n. 油漆；涂",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 216,
+    "english": "climb",
+    "pronunciation": "[klaɪm]",
+    "chinese": "v. 攀登；爬",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 217,
+    "english": "more",
+    "pronunciation": "[mɔː(r)]",
+    "chinese": "adj. & pron. 更多(的)",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 218,
+    "english": "act",
+    "pronunciation": "[ækt]",
+    "chinese": "v. 扮演；行动 n. (戏剧等)一幕；行动",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 219,
+    "english": "act out",
+    "pronunciation": "",
+    "chinese": "表演",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 220,
+    "english": "at home",
+    "pronunciation": "",
+    "chinese": "在家里",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 221,
+    "english": "interested",
+    "pronunciation": "['ɪntrəstɪd]",
+    "chinese": "adj. 感兴趣的",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 222,
+    "english": "interested in",
+    "pronunciation": "",
+    "chinese": "对……感兴趣",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 223,
+    "english": "nature",
+    "pronunciation": "['neɪtʃə(r)]",
+    "chinese": "n. 自然界；大自然",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 224,
+    "english": "beef",
+    "pronunciation": "[biːf]",
+    "chinese": "n. 牛肉",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 225,
+    "english": "soon",
+    "pronunciation": "[suːn]",
+    "chinese": "adv. 不久；很快",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 226,
+    "english": "than",
+    "pronunciation": "[ðən]",
+    "chinese": "prep. & conj. (用以引出比较的第二部分)",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 227,
+    "english": "more than",
+    "pronunciation": "",
+    "chinese": "多于",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 228,
+    "english": "mind",
+    "pronunciation": "[maɪnd]",
+    "chinese": "n. 头脑；心思",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 229,
+    "english": "fall",
+    "pronunciation": "[fɔːl]",
+    "chinese": "v. & n. 进入；掉落；跌倒 n. （美式）秋天",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 230,
+    "english": "fall in love with",
+    "pronunciation": "",
+    "chinese": "爱上……",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 231,
+    "english": "take photos / take a photo",
+    "pronunciation": "",
+    "chinese": "拍照",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 232,
+    "english": "collect",
+    "pronunciation": "[kə'lekt]",
+    "chinese": "v. 收集；采集",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 233,
+    "english": "insect",
+    "pronunciation": "['ɪnsekt]",
+    "chinese": "n. 昆虫",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 234,
+    "english": "discover",
+    "pronunciation": "[dɪ'skʌvə(r)]",
+    "chinese": "v. 发现；发觉",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 235,
+    "english": "wildlife",
+    "pronunciation": "['waɪldlaɪf]",
+    "chinese": "n. 野生动物；野生生物",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 236,
+    "english": "Linda",
+    "pronunciation": "['lɪndə]",
+    "chinese": "琳达",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 237,
+    "english": "Alice",
+    "pronunciation": "[ˈælɪs]",
+    "chinese": "爱丽丝",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 238,
+    "english": "Bill",
+    "pronunciation": "[bɪl]",
+    "chinese": "比尔",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 239,
+    "english": "White",
+    "pronunciation": "[waɪt]",
+    "chinese": "怀特",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 240,
+    "english": "Jenny",
+    "pronunciation": "['dʒeni]",
+    "chinese": "珍妮",
+    "unit": "七上 Unit 5"
+  },
+  {
+    "id": 241,
+    "english": "make use of",
+    "pronunciation": "",
+    "chinese": "使用……；利用……",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 242,
+    "english": "shower",
+    "pronunciation": "['ʃaʊə(r)]",
+    "chinese": "n. 淋浴；淋浴器 v. 洗淋浴",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 243,
+    "english": "take a shower",
+    "pronunciation": "",
+    "chinese": "淋浴",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 244,
+    "english": "get dressed",
+    "pronunciation": "",
+    "chinese": "穿衣服",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 245,
+    "english": "brush",
+    "pronunciation": "[brʌʃ]",
+    "chinese": "v. (用刷子)刷；n. 刷子；画笔",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 246,
+    "english": "tooth",
+    "pronunciation": "[tuːθ]",
+    "chinese": "n. (pl. teeth) 牙齿",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 247,
+    "english": "duty",
+    "pronunciation": "['djuːti]",
+    "chinese": "n. 值班；职责",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 248,
+    "english": "on duty",
+    "pronunciation": "",
+    "chinese": "值班",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 249,
+    "english": "usually",
+    "pronunciation": "['juːʒuəli]",
+    "chinese": "adv. 通常地；一般地",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 250,
+    "english": "get up",
+    "pronunciation": "",
+    "chinese": "起床；站起",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 251,
+    "english": "reporter",
+    "pronunciation": "[rɪ'pɔːtə(r)]",
+    "chinese": "n. 记者",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 252,
+    "english": "around",
+    "pronunciation": "[ə'raʊnd]",
+    "chinese": "prep. & adv. 大约；环绕；到处",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 253,
+    "english": "homework",
+    "pronunciation": "['həʊmwɜːk]",
+    "chinese": "n. 家庭作业",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 254,
+    "english": "go to bed",
+    "pronunciation": "",
+    "chinese": "上床睡觉",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 255,
+    "english": "saying",
+    "pronunciation": "['seɪɪŋ]",
+    "chinese": "n. 谚语；格言",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 256,
+    "english": "rise",
+    "pronunciation": "[raɪz]",
+    "chinese": "v. 起床；升起；增长 n. 增加；增强",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 257,
+    "english": "stay",
+    "pronunciation": "[steɪ]",
+    "chinese": "v. 停留；待",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 258,
+    "english": "routine",
+    "pronunciation": "[ruː'tiːn]",
+    "chinese": "n. 常规",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 259,
+    "english": "restaurant",
+    "pronunciation": "['restrɒnt]",
+    "chinese": "n. 餐馆；餐厅",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 260,
+    "english": "housework",
+    "pronunciation": "['haʊswɜːk]",
+    "chinese": "n. 家务劳动",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 261,
+    "english": "while",
+    "pronunciation": "[waɪl]",
+    "chinese": "n. 一段时间；一会儿 conj. 在……期间； 当……时候",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 262,
+    "english": "weekend",
+    "pronunciation": "[ˌwiːk'end]",
+    "chinese": "n. 周末",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 263,
+    "english": "daily",
+    "pronunciation": "['deɪli]",
+    "chinese": "adj. 每日的；日常的",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 264,
+    "english": "daily routine",
+    "pronunciation": "",
+    "chinese": "日常生活",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 265,
+    "english": "only",
+    "pronunciation": "['əʊnli]",
+    "chinese": "adv. 只；仅",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 266,
+    "english": "break",
+    "pronunciation": "[breɪk]",
+    "chinese": "n. 休息；间断 v. (使)破碎；损坏",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 267,
+    "english": "Finnish",
+    "pronunciation": "['fɪnɪʃ]",
+    "chinese": "n. 芬兰语 adj. 芬兰的；芬兰人的；芬兰语",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 268,
+    "english": "finish",
+    "pronunciation": "['fɪnɪʃ]",
+    "chinese": "v. 结束；完成",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 269,
+    "english": "hockey",
+    "pronunciation": "['hɒki]",
+    "chinese": "n. 曲棍球",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 270,
+    "english": "ice hockey",
+    "pronunciation": "[aɪs 'hɒki]",
+    "chinese": "冰球运动；冰上曲棍球",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 271,
+    "english": "already",
+    "pronunciation": "[ɔːl'redi]",
+    "chinese": "adv. 已经；早已",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 272,
+    "english": "dark",
+    "pronunciation": "[dɑːk]",
+    "chinese": "adj. 昏暗的；深色的",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 273,
+    "english": "outside",
+    "pronunciation": "[ˌaʊt'saɪd]",
+    "chinese": "adv. 在外面 adj. 外面的 prep. 在……外面",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 274,
+    "english": "prepare",
+    "pronunciation": "[prɪ'peə(r)]",
+    "chinese": "v. 把……准备好；准备",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 275,
+    "english": "Timo",
+    "pronunciation": "[tiːməʊ]",
+    "chinese": "蒂莫",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 276,
+    "english": "Halla",
+    "pronunciation": "[haˈlaː]",
+    "chinese": "哈拉",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 277,
+    "english": "Helsinki",
+    "pronunciation": "[hɛlˈsɪŋki]",
+    "chinese": "",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 278,
+    "english": "Finland",
+    "pronunciation": "['fɪnlənd]",
+    "chinese": "芬兰",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 279,
+    "english": "home economics",
+    "pronunciation": "[ˌhəʊm ˌiːkəˈnɒmɪks]",
+    "chinese": "家事经济",
+    "unit": "七上 Unit 6"
+  },
+  {
+    "id": 280,
+    "english": "celebrate",
+    "pronunciation": "['selɪbreɪt]",
+    "chinese": "v. 庆祝；庆贺",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 281,
+    "english": "surprise",
+    "pronunciation": "[sə'praɪz]",
+    "chinese": "n. 惊奇；惊讶 v. 使感到意外",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 282,
+    "english": "something",
+    "pronunciation": "['sʌmθɪŋ]",
+    "chinese": "pron. 某事；某物",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 283,
+    "english": "sale",
+    "pronunciation": "[seɪl]",
+    "chinese": "n. 出售；销售",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 284,
+    "english": "kilo",
+    "pronunciation": "['kiːləʊ]",
+    "chinese": "n. 千克；公斤",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 285,
+    "english": "yogurt",
+    "pronunciation": "['jɒɡət]",
+    "chinese": "n. (=yoghurt) 酸奶",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 286,
+    "english": "total",
+    "pronunciation": "[ˈtəʊtl]",
+    "chinese": "n. 总数；合计 adj. 总的；全体的",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 287,
+    "english": "price",
+    "pronunciation": "[praɪs]",
+    "chinese": "n. 价格",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 288,
+    "english": "balloon",
+    "pronunciation": "[bə'luːn]",
+    "chinese": "n. 气球",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 289,
+    "english": "chocolate",
+    "pronunciation": "['tʃɒklət]",
+    "chinese": "n. 巧克力",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 290,
+    "english": "pizza",
+    "pronunciation": "['piːtsə]",
+    "chinese": "n. 比萨饼",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 291,
+    "english": "list",
+    "pronunciation": "[lɪst]",
+    "chinese": "v. 列表；列清单 n. 名单；清单",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 292,
+    "english": "own",
+    "pronunciation": "[əʊn]",
+    "chinese": "adj. & pron. 自己的；本人的",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 293,
+    "english": "example",
+    "pronunciation": "[ɪɡ'zɑːmpl]",
+    "chinese": "n. 例子；范例",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 294,
+    "english": "for example",
+    "pronunciation": "",
+    "chinese": "例如",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 295,
+    "english": "language",
+    "pronunciation": "['læŋɡwɪdʒ]",
+    "chinese": "n. 语言",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 296,
+    "english": "international",
+    "pronunciation": "[ˌɪntə'næʃnəl]",
+    "chinese": "adj. 国际的",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 297,
+    "english": "mark",
+    "pronunciation": "[mɑːk]",
+    "chinese": "v. 做记号；纪念；打分 n. 记号",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 298,
+    "english": "date",
+    "pronunciation": "[deɪt]",
+    "chinese": "n. 日子；日期",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 299,
+    "english": "national",
+    "pronunciation": "['næʃnəl]",
+    "chinese": "adj. 国家的；民族的",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 300,
+    "english": "found",
+    "pronunciation": "[faʊnd]",
+    "chinese": "v. 创建；创立",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 301,
+    "english": "meaningful",
+    "pronunciation": "['miːnɪŋfl]",
+    "chinese": "adj. 重要的；重大的",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 302,
+    "english": "make a wish",
+    "pronunciation": "",
+    "chinese": "许愿",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 303,
+    "english": "village",
+    "pronunciation": "['vɪlɪdʒ]",
+    "chinese": "n. 村庄；村镇",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 304,
+    "english": "grow",
+    "pronunciation": "[ɡrəʊ]",
+    "chinese": "v. 成长；长大；增长",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 305,
+    "english": "blow",
+    "pronunciation": "[bləʊ]",
+    "chinese": "v. 吹；刮",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 306,
+    "english": "blow out",
+    "pronunciation": "",
+    "chinese": "吹灭",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 307,
+    "english": "enjoy",
+    "pronunciation": "[ɪn'dʒɔɪ]",
+    "chinese": "v. 享受……的乐趣；喜欢",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 308,
+    "english": "height",
+    "pronunciation": "[haɪt]",
+    "chinese": "n. 身高；高度",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 309,
+    "english": "later",
+    "pronunciation": "['leɪtə(r)]",
+    "chinese": "adv. & adj. 以后(的)；后来(的)",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 310,
+    "english": "next time",
+    "pronunciation": "",
+    "chinese": "下次",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 311,
+    "english": "whom",
+    "pronunciation": "[huːm]",
+    "chinese": "pron. 谁；什么人",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 312,
+    "english": "William Shakespeare",
+    "pronunciation": "",
+    "chinese": "威廉·莎士比亚",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 313,
+    "english": "Florence Nightingale",
+    "pronunciation": "",
+    "chinese": "弗洛伦斯·南丁格尔",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 314,
+    "english": "National Day",
+    "pronunciation": "['næʃənəl deɪ]",
+    "chinese": "国庆节",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 315,
+    "english": "CPC Founding Day",
+    "pronunciation": "",
+    "chinese": "中国共产党建党纪念日",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 316,
+    "english": "PLADay",
+    "pronunciation": "",
+    "chinese": "中国人民解放军建军节",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 317,
+    "english": "Judy",
+    "pronunciation": "[ˈdʒuːdi]",
+    "chinese": "朱迪",
+    "unit": "七上 Unit 7"
+  },
+  {
+    "id": 318,
+    "english": "Clark",
+    "pronunciation": "[klɑːk]",
+    "chinese": "克拉克",
+    "unit": "七上 Unit 7"
+  }
+]

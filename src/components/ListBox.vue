@@ -1,13 +1,13 @@
 <template>
   <div>
-    <Listbox v-model="selectedPerson">
-      <div class="relative mt-1">
+    <Listbox v-model="selectedUnit">
+      <div class="relative">
         <ListboxButton
-          class="relative w-full cursor-default rounded-lg bg-white py-2 pl-3 pr-10 text-left focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white/75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300 sm:text-sm"
+          class="group duration-150 relative w-48 rounded-lg bg-white py-2 pl-3 pr-10 text-left focus:outline-none hover:text-white hover:bg-amber-600"
         >
-          <span class="block truncate">{{ selectedPerson.name }}</span>
+          <span class="block truncate text-center">{{ selectedUnit }}</span>
           <span class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
-            <ChevronUpDownIcon class="h-5 w-5 text-gray-400" aria-hidden="true" />
+            <ChevronUpDownIcon class="h-5 w-5 text-gray-400 group-hover:text-white" />
           </span>
         </ListboxButton>
 
@@ -17,29 +17,29 @@
           leave-to-class="opacity-0"
         >
           <ListboxOptions
-            class="absolute mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black/5 focus:outline-none sm:text-sm"
+            class="absolute z-50 mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black/5 focus:outline-none sm:text-sm"
           >
             <ListboxOption
               v-slot="{ active, selected }"
-              v-for="person in people"
-              :key="person.name"
-              :value="person"
+              v-for="(unit, index) in units"
+              :key="index"
+              :value="unit"
               as="template"
             >
               <li
                 :class="[
-                  active ? 'bg-[#e91e62bc] text-[#fff]' : 'text-[#2e2e2e]',
-                  'relative cursor-default select-none py-2 pl-10 pr-4',
+                  active ? 'bg-amber-100 text-amber-900' : 'text-gray-900',
+                  'relative select-none py-2 pl-10 pr-4 cursor-pointer',
                 ]"
               >
                 <span :class="[selected ? 'font-medium' : 'font-normal', 'block truncate']">{{
-                  person.name
+                  unit
                 }}</span>
                 <span
                   v-if="selected"
-                  class="absolute inset-y-0 left-0 flex items-center pl-3 text-[#e91e63]"
+                  class="absolute inset-y-0 left-0 flex items-center pl-3 text-amber-600"
                 >
-                  <CheckIcon class="h-5 w-5" aria-hidden="true" />
+                  <CheckIcon class="h-5 w-5" />
                 </span>
               </li>
             </ListboxOption>
@@ -51,19 +51,17 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, toRefs, watch } from 'vue'
 import { Listbox, ListboxButton, ListboxOptions, ListboxOption } from '@headlessui/vue'
 import { CheckIcon, ChevronUpDownIcon } from '@heroicons/vue/20/solid'
-
-const people = [
-  { name: 'Wade Cooper' },
-  { name: 'Arlene Mccoy' },
-  { name: 'Devon Webb' },
-  { name: 'Tom Cook' },
-  { name: 'Tanya Fox' },
-  { name: 'Hellen Schmidt' },
-]
-const selectedPerson = ref(people[0])
+const props = defineProps(['units'])
+const { units } = toRefs(props)
+const selectedUnit = ref<string>('全部')
+const emit = defineEmits(['change'])
+const emitChange = () => {
+  emit('change', selectedUnit.value)
+}
+watch(selectedUnit, emitChange)
 </script>
 
 <style scoped></style>
