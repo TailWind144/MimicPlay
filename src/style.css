@@ -7,6 +7,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+*:focus {
+  outline: none;
+}
 
 :root {
   --el-color-primary: rgb(245 158 11 / var(--tw-bg-opacity, 1)) !important;
@@ -24,6 +27,30 @@
     monospace;
 }
 
-*:focus {
-  outline: none;
+.slide-left-enter-active,
+.slide-left-leave-active {
+  transition: 400ms ease-in-out;
+}
+
+.slide-left-enter-from {
+  opacity: 0;
+  transform: translateX(-30px);
+}
+.slide-left-leave-to {
+  opacity: 0;
+  transform: translateX(30px);
+}
+
+.slide-right-enter-active,
+.slide-right-leave-active {
+  transition: 400ms ease-in-out;
+}
+
+.slide-right-enter-from {
+  opacity: 0;
+  transform: translateX(30px);
+}
+.slide-right-leave-to {
+  opacity: 0;
+  transform: translateX(-30px);
 }

@@ -12,7 +12,7 @@
           :show-after="150"
           :show-arrow="false"
         >
-          <router-link to="/gallery">教材</router-link>
+          <router-link to="/gallery">{{ dict?.nick }}</router-link>
         </el-tooltip>
         <ListBox :units="units" @change="handleChange" />
       </div>
@@ -61,15 +61,17 @@ import WordListDialog from '@/views/Home/components/WordListDialog.vue'
 import ToolBar from './components/ToolBar.vue'
 import ListBox from '@/components/ListBox.vue'
 import VolumeIndex from '@/components/WordPronunciationIcon/VolumeIndex.vue'
-import fetchDict from '@/utils/fetchDict'
+import { fetchDict } from '@/utils/fetch'
 import NextWordTip from './components/NextWordTip.vue'
 import PrevWordTip from './components/PrevWordTip.vue'
 import EmptyStatus from '@/components/EmptyStatus.vue'
 import type { UnitToWords, Words } from '@/types/types'
 import { computed, ref, watch } from 'vue'
 import { ElTooltip } from 'element-plus'
+import { useDictStore } from '@/stores/dictStore'
 import sleep from '@/utils/sleep'
 
+const { dict } = useDictStore()
 const index = ref<number>(0)
 const selectedUnit = ref('全部')
 const isOpen = ref(false)
@@ -94,7 +96,7 @@ watch(selectedUnit, () => {
 })
 
 const fetchWords = async () => {
-  allWords.value = await fetchDict('/dict/7A.json')
+  allWords.value = await fetchDict(dict!.path)
   words.value = wordsGroupbyUnit(allWords.value)
   units.value = Object.keys(words.value)
   showWords.value = words.value[selectedUnit.value]
@@ -121,7 +123,7 @@ const autoPlay = async () => {
       while (i--) {
         if (!isAutoPlaying.value) break
         audioRef.value.play()
-        await sleep(3000)
+        await sleep(2000)
       }
       if (!isAutoPlaying.value) break
       if (index.value < showWords.value.length - 1) nextWord()

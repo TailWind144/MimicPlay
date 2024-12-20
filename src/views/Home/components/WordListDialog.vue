@@ -48,11 +48,7 @@
 
               <div class="mt-4 flex gap-4">
                 <WordListButton :text="'确定'" @click="emitClose" />
-                <WordListButton
-                  class="border-gray-500 text-gray-400 hover:bg-gray-500"
-                  :text="'取消'"
-                  @click="emitModalClose"
-                />
+                <WordListButton :color="'[#b1b3b8]'" :text="'取消'" @click="emitModalClose" />
               </div>
             </DialogPanel>
           </TransitionChild>
