@@ -12,7 +12,7 @@
 }
 
 :root {
-  --el-color-primary: rgb(245 158 11 / var(--tw-bg-opacity, 1)) !important;
+  --el-color-primary: #f59e0b !important;
 }
 
 .word {

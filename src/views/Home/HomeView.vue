@@ -146,6 +146,7 @@ const showEditDialog = () => {
 const closeEditDialog = (selectedWords: Words) => {
   isOpen.value = false
   showWords.value = selectedWords
+  index.value = 0
 }
 
 const isCombineWord = (word: string) => word.includes(' ')
@@ -170,6 +171,6 @@ a {
 }
 a:hover {
   color: #fff;
-  background-color: rgb(217 119 6 / var(--tw-text-opacity, 1));
+  background-color: #d97706;
 }
 </style>
