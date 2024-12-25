@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen flex flex-col">
     <div class="flex items-center justify-center py-8 px-14 w-screen gap-8 h-32">
-      <h1 class="font-bold mr-auto text-3xl text-amber-600">WordList</h1>
+      <h1 class="font-bold mr-auto text-3xl text-amber-600">MimicPlay</h1>
       <div
         class="flex gap-6 items-center justify-center bg-white rounded-lg shadow-md px-8 py-3 shadow-amber-100"
       >
@@ -14,11 +14,11 @@
         >
           <router-link to="/gallery">{{ dict?.nick }}</router-link>
         </el-tooltip>
-        <ListBox :units="units" @change="handleChange" />
+        <ListBox :data="units" @change="handleChange" />
       </div>
     </div>
     <div class="flex items-center justify-center flex-1 flex-col pb-32">
-      <div class="flex-1 flex w-screen px-20 gap-8 py-6">
+      <div class="flex-1 flex w-screen px-20 gap-8 py-6 relative">
         <PrevWordTip @click="prevWord" class="flex-1" :showWord="showWords[index - 1]" />
         <div class="flex flex-col gap-4 items-center justify-center" v-show="!isEmpty">
           <div class="text-gray-600 w-fit text-8xl word text-center relative">
@@ -34,6 +34,10 @@
         </div>
         <div v-show="isEmpty" class="flex"><EmptyStatus :text="'请添加单词'" /></div>
         <NextWordTip @click="nextWord" class="flex-1" :showWord="showWords[index + 1]" />
+        <div
+          v-show="isAutoPlaying"
+          class="absolute w-full h-full left-0 top-0 z-10 cursor-not-allowed"
+        ></div>
       </div>
       <div>
         <ToolBar
@@ -70,6 +74,7 @@ import { computed, ref, watch } from 'vue'
 import { ElTooltip } from 'element-plus'
 import { useDictStore } from '@/stores/dictStore'
 import sleep from '@/utils/sleep'
+import { useSettingStore } from '@/stores/settingStore'
 
 const { dict } = useDictStore()
 const index = ref<number>(0)
@@ -110,6 +115,7 @@ const prevWord = () => {
   index.value--
 }
 
+const { settings } = useSettingStore()
 const autoPlayFlag = ref(false)
 const isAutoPlaying = ref(false)
 const ifLoadingShow = computed(() => autoPlayFlag.value && !isAutoPlaying.value)
@@ -119,11 +125,12 @@ const autoPlay = async () => {
     autoPlayFlag.value = true
     isAutoPlaying.value = true
     while (index.value < showWords.value.length) {
-      let i = 2
+      let i = settings.loopNums
       while (i--) {
         if (!isAutoPlaying.value) break
         audioRef.value.play()
-        await sleep(2000)
+        const audioDuration = audioRef.value.getAudioDuration()
+        await sleep(audioDuration * 1000 * 2)
       }
       if (!isAutoPlaying.value) break
       if (index.value < showWords.value.length - 1) nextWord()

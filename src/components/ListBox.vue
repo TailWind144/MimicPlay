@@ -1,13 +1,13 @@
 <template>
   <div>
-    <Listbox v-model="selectedUnit">
+    <Listbox v-model="selected">
       <div class="relative">
         <ListboxButton
-          class="group duration-150 relative w-48 rounded-lg bg-white py-2 pl-3 pr-10 text-left focus:outline-none hover:text-white hover:bg-amber-600"
+          class="group/ListBtn duration-150 relative w-48 rounded-lg bg-white py-2 pl-3 pr-10 text-left focus:outline-none hover:text-white hover:bg-amber-600"
         >
-          <span class="block truncate text-center">{{ selectedUnit }}</span>
+          <span class="block truncate text-center">{{ selected }}</span>
           <span class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
-            <ChevronUpDownIcon class="h-5 w-5 text-gray-400 group-hover:text-white" />
+            <ChevronUpDownIcon class="h-5 w-5 text-gray-400 group-hover/ListBtn:text-white" />
           </span>
         </ListboxButton>
 
@@ -21,9 +21,9 @@
           >
             <ListboxOption
               v-slot="{ active, selected }"
-              v-for="(unit, index) in units"
+              v-for="(item, index) in data"
               :key="index"
-              :value="unit"
+              :value="item"
               as="template"
             >
               <li
@@ -33,7 +33,7 @@
                 ]"
               >
                 <span :class="[selected ? 'font-medium' : 'font-normal', 'block truncate']">{{
-                  unit
+                  item
                 }}</span>
                 <span
                   v-if="selected"
@@ -51,17 +51,16 @@
 </template>
 
 <script setup lang="ts">
-import { ref, toRefs, watch } from 'vue'
+import { ref, watch } from 'vue'
 import { Listbox, ListboxButton, ListboxOptions, ListboxOption } from '@headlessui/vue'
 import { CheckIcon, ChevronUpDownIcon } from '@heroicons/vue/20/solid'
-const props = defineProps(['units'])
-const { units } = toRefs(props)
-const selectedUnit = ref<string>('全部')
+const { data, defaultValue = '全部' } = defineProps(['data', 'defaultValue'])
+const selected = ref<string>(defaultValue)
 const emit = defineEmits(['change'])
 const emitChange = () => {
-  emit('change', selectedUnit.value)
+  emit('change', selected.value)
 }
-watch(selectedUnit, emitChange)
+watch(selected, emitChange)
 </script>
 
 <style scoped></style>

@@ -118,8 +118,10 @@ watch(
   },
 )
 watch(page, (val, old) => {
-  // 当原页数不为1，重新设置为1时不进行操作
-  // 因为在打开对话框时会设置wordsList，此时不需要再次触发
+  // 当原页数不为1, 重新设置为1时不进行操作
+  // 因为在打开对话框时会设置wordsList, 此时不需要再次触发
+  // 而原页数为1, 又设置为1时并不会触发该watch
+  // 因此该watch只会在翻页时触发
   if (old !== 1 && val === 1) return
   wordsList.value = wordsList.value.concat(pagesList.value[val - 1])
   nextTick(() => {

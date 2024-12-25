@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen flex flex-col">
     <div class="flex justify-end py-8 px-16">
-      <h1 class="font-bold mr-auto text-3xl text-amber-600">WordList</h1>
+      <h1 class="font-bold mr-auto text-3xl text-amber-600">MimicPlay</h1>
       <ArrowRightIcon
         @click="backToHome"
         class="h-8 w-8 text-gray-600 opacity-50 hover:opacity-100 duration-300 cursor-pointer"

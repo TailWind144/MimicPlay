@@ -11,15 +11,18 @@ import VolumeLowIcon from './VolumeIcon/VolumeLowIcon.vue'
 import VolumeMediumIcon from './VolumeIcon/VolumeMediumIcon.vue'
 import VolumeHighIcon from './VolumeIcon/VolumeHighIcon.vue'
 import throttle from '@/utils/throttle'
+import { useSettingStore } from '@/stores/settingStore'
 const volumeComponents = [VolumeIcon, VolumeLowIcon, VolumeMediumIcon, VolumeHighIcon]
 const isPlay = ref(false)
 const index = ref(0)
 const { word } = defineProps(['word'])
 
+const { settings } = useSettingStore()
+
 let timeout: number | undefined
 const audio: HTMLAudioElement = new Audio()
 watchEffect(() => {
-  audio.src = `https://dict.youdao.com/dictvoice?audio=${word}`
+  audio.src = `https://dict.youdao.com/dictvoice?type=${settings.audioType}&audio=${word}`
   isPlay.value = false
   index.value = 0
 })
@@ -59,9 +62,14 @@ function vloumeAnimate(time: number) {
   })
 }
 
+const getAudioDuration = () => {
+  return audio.duration
+}
+
 defineExpose({
   play,
   pause,
+  getAudioDuration,
 })
 </script>
 

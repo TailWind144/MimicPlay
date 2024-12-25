@@ -1,4 +1,6 @@
-# wordlist
+# MimicPlay
+
+A English words auto-play Web application for primary and secondary education
 
 This template should help get you started developing with Vue 3 in Vite.
 

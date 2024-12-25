@@ -20,3 +20,9 @@ export type Dict = {
 export type Gallery = {
   [index: string]: Array<Dict>
 }
+
+export type Settings = {
+  [key: string]: string | number
+  loopNums: number
+  audioType: string
+}
