@@ -1,41 +1,9 @@
 # MimicPlay
 
-A English words auto-play Web application for primary and secondary education
+A English words auto-play Web application for primary and secondary education.
 
-This template should help get you started developing with Vue 3 in Vite.
+**MimicPlay** 是一个自动播放英语单词音频的 Web 应用，用于替代中小学英语教育中使用播音机播放单词的形式。
 
-## Recommended IDE Setup
+在 **MimicPlay** 中可以选择不同出版社、不同年级的英语课本（暂只支持人教版七年级上册），还可以编辑自动播放的单词，控制自动播放的次数和音频发音（美音 | 英音），目前单词音频采用有道的公开 API。
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-pnpm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-pnpm dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-pnpm build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-pnpm lint
-```
+项目没有经过严格的系统测试，如有 Bug 请谅解，也请您尽快提交 issue 告知我们。

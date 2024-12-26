@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen flex flex-col">
     <div class="flex items-center justify-center py-8 px-14 w-screen gap-8 h-32">
-      <h1 class="font-bold mr-auto text-3xl text-amber-600">MimicPlay</h1>
+      <NavLogo class="mr-auto" />
       <div
         class="flex gap-6 items-center justify-center bg-white rounded-lg shadow-md px-8 py-3 shadow-amber-100"
       >
@@ -60,6 +60,7 @@
 </template>
 
 <script setup lang="ts">
+import NavLogo from '@/components/NavLogo.vue'
 import { RouterLink } from 'vue-router'
 import WordListDialog from '@/views/Home/components/WordListDialog.vue'
 import ToolBar from './components/ToolBar.vue'
