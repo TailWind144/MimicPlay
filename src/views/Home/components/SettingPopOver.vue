@@ -15,7 +15,7 @@
           />
           <Cog6ToothIconSoild
             v-else
-            class="duration-300 transition-all h-8 w-8 text-white cursor-pointer scale-100 hover:scale-110"
+            class="duration-300 transition-all h-8 w-8 text-white cursor-pointer scale-100 hover:scale-110 hover:rotate-180"
           />
         </el-tooltip>
       </PopoverButton>

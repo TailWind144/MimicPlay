@@ -12,6 +12,9 @@
 }
 
 :root {
+  --c-bg: #faf9ff;
+  --c-scrollbar: #ccc;
+  --c-scrollbar-hover: #bbb;
   --el-color-primary: #f59e0b !important;
 }
 
@@ -27,11 +30,29 @@
     monospace;
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar:horizontal {
+  height: 6px;
+}
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-corner {
+  background: var(--c-bg);
+  border-radius: 1rem;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--c-scrollbar);
+  border-radius: 1rem;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--c-scrollbar-hover);
+}
+
 .slide-left-enter-active,
 .slide-left-leave-active {
   transition: 400ms ease-in-out;
 }
-
 .slide-left-enter-from {
   opacity: 0;
   transform: translateX(-30px);
@@ -45,7 +66,6 @@
 .slide-right-leave-active {
   transition: 400ms ease-in-out;
 }
-
 .slide-right-enter-from {
   opacity: 0;
   transform: translateX(30px);
@@ -53,4 +73,22 @@
 .slide-right-leave-to {
   opacity: 0;
   transform: translateX(-30px);
+}
+
+.bounce-enter-active {
+  animation: bounce-in 0.3s;
+}
+.bounce-leave-active {
+  animation: bounce-in 0.3s reverse;
+}
+@keyframes bounce-in {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1);
+  }
 }

@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen flex flex-col">
+  <div class="h-screen flex flex-col">
     <div class="flex justify-end py-11 px-16">
       <NavLogo class="mr-auto" />
       <ArrowRightIcon
@@ -7,10 +7,11 @@
         class="h-8 w-8 text-gray-600 opacity-50 hover:opacity-100 duration-300 cursor-pointer"
       />
     </div>
-    <div class="flex px-20 flex-col gap-4">
+    <div class="flex px-20 flex-col gap-4 flex-1 h-full overflow-hidden">
       <TagNav :tags="tags" :tag="tag" @click="handleChange" />
-      <BookList :books @click="handleClickBook" />
+      <BookList class="h-full overflow-y-auto pr-4" :books @click="handleClickBook" />
     </div>
+    <ViewFooter />
   </div>
 </template>
 
@@ -24,6 +25,7 @@ import TagNav from './components/TagNav.vue'
 import BookList from './components/BookList.vue'
 import { useDictStore } from '@/stores/dictStore'
 import { computed, ref } from 'vue'
+import ViewFooter from '@/components/ViewFooter.vue'
 
 const dictStore = useDictStore()
 const router = useRouter()

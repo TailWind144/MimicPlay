@@ -6,4 +6,9 @@ An English words auto-play Web application for primary and secondary education.
 
 在 **MimicPlay** 中可以选择不同出版社、不同年级的英语课本（暂只支持人教版七年级上册），还可以编辑自动播放的单词，控制自动播放的次数和音频发音（美音 | 英音），目前单词音频采用有道的公开 API。
 
+该应用支持翻页笔：
+
+- **上按钮（PageUp）**——播放当前单词
+- **下按钮（PageDown）**——下一个单词
+
 项目没有经过严格的系统测试，如有 Bug 请谅解，也请您尽快提交 issue 告知我们。

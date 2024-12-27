@@ -1,7 +1,9 @@
 <template>
-  <div class="min-h-screen flex flex-col">
-    <div class="flex items-center justify-center py-8 px-14 w-screen gap-8 h-32">
-      <NavLogo class="mr-auto" />
+  <div class="h-screen flex flex-col">
+    <div
+      class="flex items-center justify-center py-8 px-14 w-screen gap-8 md:h-40 flex-col md:flex-row"
+    >
+      <NavLogo class="md:mr-auto" />
       <div
         class="flex gap-6 items-center justify-center bg-white rounded-lg shadow-md px-8 py-3 shadow-amber-100"
       >
@@ -17,8 +19,11 @@
         <ListBox :data="units" :value="selectedUnit" @change="handleChange" />
       </div>
     </div>
-    <div class="flex items-center justify-center flex-1 flex-col pb-32">
+    <div class="flex items-center justify-center flex-1 flex-col">
       <div class="flex-1 flex w-screen px-20 gap-8 py-6 relative">
+        <transition appear name="bounce" mode="out-in">
+          <BackToFirstTip v-show="index >= 2" class="absolute" @click="() => (index = 0)" />
+        </transition>
         <PrevWordTip @click="prevWord" class="flex-1" :showWord="showWords[index - 1]" />
         <div class="flex flex-col gap-4 items-center justify-center" v-show="!isEmpty">
           <div class="text-gray-600 w-fit text-8xl word text-center relative">
@@ -37,8 +42,19 @@
         <div
           v-show="isAutoPlaying"
           class="absolute w-full h-full left-0 top-0 z-10 cursor-not-allowed"
+          @click="
+            () =>
+              ElMessage({
+                message: '请暂停自动播放后操作！',
+                type: 'warning',
+                plain: true,
+                offset: 90,
+              })
+          "
         ></div>
       </div>
+    </div>
+    <div class="h-40 flex flex-col justify-between items-center">
       <div>
         <ToolBar
           @auto-play-click="autoPlay"
@@ -47,6 +63,7 @@
           :ifLoadingShow
         />
       </div>
+      <ViewFooter class="mt-auto" />
     </div>
     <WordListDialog
       :isOpen
@@ -72,10 +89,12 @@ import PrevWordTip from './components/PrevWordTip.vue'
 import EmptyStatus from '@/components/EmptyStatus.vue'
 import type { UnitToWords, Words } from '@/types/types'
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
-import { ElTooltip } from 'element-plus'
+import { ElTooltip, ElMessage } from 'element-plus'
 import { useDictStore } from '@/stores/dictStore'
 import sleep from '@/utils/sleep'
 import { useSettingStore } from '@/stores/settingStore'
+import BackToFirstTip from './components/BackToFirstTip.vue'
+import ViewFooter from '@/components/ViewFooter.vue'
 
 const { dict } = useDictStore()
 const index = ref<number>(0)

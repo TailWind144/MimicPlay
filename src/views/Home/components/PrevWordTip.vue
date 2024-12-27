@@ -2,11 +2,11 @@
   <div class="gap-4 flex items-center justify-start select-none">
     <div
       @click="emitClick"
-      class="text-gray-600 text-xl opacity-50 hover:opacity-100 cursor-pointer duration-300 flex items-center gap-4"
+      class="text-gray-600 text-xl opacity-50 hover:opacity-100 hover:-translate-x-1 cursor-pointer duration-300 flex items-center gap-4"
       v-show="showWord"
     >
       <ChevronLeftIcon class="h-5 w-5" />
-      <div class="text-left ml-auto flex flex-col">
+      <div class="text-left ml-auto flex-col hidden md:flex">
         <span class="word">
           {{ showWord?.english }}
         </span>
