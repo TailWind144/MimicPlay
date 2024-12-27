@@ -81,6 +81,7 @@ const { isOpen, selectedUnit, tableData, showWords } = defineProps([
 ])
 const emit = defineEmits(['close', 'modalClose'])
 const emitClose = () => {
+  multipleSelection.value.sort((a, b) => Number(a.id) - Number(b.id))
   emit('close', multipleSelection.value)
 }
 const emitModalClose = () => {
@@ -93,10 +94,14 @@ const page = ref(1)
 const tableRef = ref()
 const wordsList = ref<Words>([])
 const multipleSelection = ref<Words>([])
-const showWordsSet = computed(() => new Set(multipleSelection.value))
+const showWordsMap = computed(() => {
+  const map = new Map()
+  for (const row of multipleSelection.value) map.set(row.id, null)
+  return map
+})
 const initSelection = () => {
   for (const row of wordsList.value) {
-    if (showWordsSet.value.has(row)) tableRef.value.toggleRowSelection(row)
+    if (showWordsMap.value.has(row.id)) tableRef.value.toggleRowSelection(row)
   }
 }
 

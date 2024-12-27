@@ -8,6 +8,6 @@ export const fetchDict = async function (path: string): Promise<Words> {
 
 export const fetchGallery = async function (path: string): Promise<Gallery> {
   const res = await fetch(path)
-  const gallery: Gallery = await res.json()
+  const gallery = await res.json()
   return gallery[0]
 }

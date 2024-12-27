@@ -1,6 +1,6 @@
 # MimicPlay
 
-A English words auto-play Web application for primary and secondary education.
+An English words auto-play Web application for primary and secondary education.
 
 **MimicPlay** 是一个自动播放英语单词音频的 Web 应用，用于替代中小学英语教育中使用播音机播放单词的形式。
 

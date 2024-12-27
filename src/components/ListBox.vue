@@ -54,8 +54,8 @@
 import { ref, watch } from 'vue'
 import { Listbox, ListboxButton, ListboxOptions, ListboxOption } from '@headlessui/vue'
 import { CheckIcon, ChevronUpDownIcon } from '@heroicons/vue/20/solid'
-const { data, defaultValue = '全部' } = defineProps(['data', 'defaultValue'])
-const selected = ref<string>(defaultValue)
+const { data, defaultValue = '全部', value } = defineProps(['data', 'defaultValue', 'value'])
+const selected = ref<string>(value ?? defaultValue)
 const emit = defineEmits(['change'])
 const emitChange = () => {
   emit('change', selected.value)

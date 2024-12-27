@@ -17,12 +17,12 @@ const isPlay = ref(false)
 const index = ref(0)
 const { word } = defineProps(['word'])
 
-const { settings } = useSettingStore()
+const { proxySetting } = useSettingStore()
 
 let timeout: number | undefined
 const audio: HTMLAudioElement = new Audio()
 watchEffect(() => {
-  audio.src = `https://dict.youdao.com/dictvoice?type=${settings.audioType}&audio=${word}`
+  audio.src = `https://dict.youdao.com/dictvoice?type=${proxySetting.audioType}&audio=${word}`
   isPlay.value = false
   index.value = 0
 })

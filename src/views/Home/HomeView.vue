@@ -14,7 +14,7 @@
         >
           <router-link to="/gallery">{{ dict?.nick }}</router-link>
         </el-tooltip>
-        <ListBox :data="units" @change="handleChange" />
+        <ListBox :data="units" :value="selectedUnit" @change="handleChange" />
       </div>
     </div>
     <div class="flex items-center justify-center flex-1 flex-col pb-32">
@@ -71,7 +71,7 @@ import NextWordTip from './components/NextWordTip.vue'
 import PrevWordTip from './components/PrevWordTip.vue'
 import EmptyStatus from '@/components/EmptyStatus.vue'
 import type { UnitToWords, Words } from '@/types/types'
-import { computed, ref, watch } from 'vue'
+import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { ElTooltip } from 'element-plus'
 import { useDictStore } from '@/stores/dictStore'
 import sleep from '@/utils/sleep'
@@ -79,7 +79,8 @@ import { useSettingStore } from '@/stores/settingStore'
 
 const { dict } = useDictStore()
 const index = ref<number>(0)
-const selectedUnit = ref('全部')
+// 本地缓存读取——当前单元
+const selectedUnit = ref(localStorage.getItem('selectedUnit') ?? '全部')
 const isOpen = ref(false)
 const audioRef = ref()
 
@@ -100,12 +101,19 @@ const isEmpty = computed(() => showWords.value.length === 0)
 watch(selectedUnit, () => {
   showWords.value = words.value[selectedUnit.value]
 })
+// 本地缓存设置——单词列表
+watch(showWords, () => {
+  localStorage.setItem('showWords', JSON.stringify(showWords.value))
+})
 
 const fetchWords = async () => {
   allWords.value = await fetchDict(dict!.path)
   words.value = wordsGroupbyUnit(allWords.value)
   units.value = Object.keys(words.value)
-  showWords.value = words.value[selectedUnit.value]
+  // 本地缓存读取——单词列表
+  if (localStorage.getItem('showWords'))
+    showWords.value = JSON.parse(localStorage.getItem('showWords')!)
+  else showWords.value = words.value[selectedUnit.value]
 }
 fetchWords()
 
@@ -116,7 +124,31 @@ const prevWord = () => {
   index.value--
 }
 
-const { settings } = useSettingStore()
+// 翻页笔支持：pageUp播放当前单词，pageDown下一个单词
+const pageUp = () => {
+  audioRef.value.play()
+}
+const pageDown = () => {
+  if (index.value !== showWords.value.length - 1) nextWord()
+}
+const handleKeyUp = (e: KeyboardEvent) => {
+  switch (e.key) {
+    case 'PageUp':
+      pageUp()
+      break
+    case 'PageDown':
+      pageDown()
+      break
+  }
+}
+onMounted(() => {
+  window.addEventListener('keyup', handleKeyUp)
+})
+onBeforeUnmount(() => {
+  window.removeEventListener('keyup', handleKeyUp)
+})
+
+const { proxySetting } = useSettingStore()
 const autoPlayFlag = ref(false)
 const isAutoPlaying = ref(false)
 const ifLoadingShow = computed(() => autoPlayFlag.value && !isAutoPlaying.value)
@@ -126,7 +158,7 @@ const autoPlay = async () => {
     autoPlayFlag.value = true
     isAutoPlaying.value = true
     while (index.value < showWords.value.length) {
-      let i = settings.loopNums
+      let i = proxySetting.loopNums
       while (i--) {
         if (!isAutoPlaying.value) break
         audioRef.value.play()
@@ -143,8 +175,11 @@ const autoPlay = async () => {
   isAutoPlaying.value = false
   audioRef.value.pause()
 }
+
 const handleChange = (unit: string) => {
   selectedUnit.value = unit
+  // 本地缓存设置——当前单元
+  localStorage.setItem('selectedUnit', unit)
   index.value = 0
 }
 

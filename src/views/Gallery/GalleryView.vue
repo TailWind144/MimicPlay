@@ -41,6 +41,11 @@ fetchBooks()
 
 const handleClickBook = (book: Dict) => {
   dictStore.dict = book
+  // 本地缓存设置——课本
+  localStorage.setItem('dict', JSON.stringify(book))
+  // 移除单词列表缓存，避免读取到缓存中（上一个课本）的单词列表
+  localStorage.removeItem('showWords')
+  localStorage.removeItem('selectedUnit')
   router.push('/')
 }
 const handleChange = (val: string) => {
