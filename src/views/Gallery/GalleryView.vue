@@ -35,7 +35,7 @@ const tags = ref<Array<string>>()
 const tag = ref()
 
 const fetchBooks = async () => {
-  gallery.value = await fetchGallery('/gallery.json')
+  gallery.value = await fetchGallery('/minicplay/gallery.json')
   tags.value = Object.keys(gallery.value)
   tag.value = tags.value[0]
 }

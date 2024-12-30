@@ -4,7 +4,7 @@
       class="image_box h-80 rounded-xl shadow-md bg-no-repeat bg-right duration-300 transition-all bg-130% hover:bg-140% flex cursor-pointer"
       v-for="(book, index) in books"
       :key="index"
-      style="background-image: url(/img/7A.png)"
+      :style="`background-image: url(${book.imgPath})`"
       @click="emitClick(book)"
     >
       <div
