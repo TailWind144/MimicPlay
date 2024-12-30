@@ -9,6 +9,7 @@ export default {
       },
       gridTemplateColumns: {
         normal: 'repeat(auto-fill, minmax(320px, 1fr))',
+        small: 'repeat(auto-fill, minmax(260px, 1fr))',
       },
     },
   },

@@ -2,22 +2,14 @@
   <div class="items-center justify-center flex">
     <Popover v-slot="{ open }" class="relative">
       <PopoverButton as="div" ref="popOveBtnRef">
-        <el-tooltip
-          placement="bottom"
-          content="设置"
-          :hide-after="150"
-          :show-after="150"
-          :show-arrow="false"
-        >
-          <Cog6ToothIcon
-            v-if="!open"
-            class="duration-300 transition-all h-8 w-8 text-white cursor-pointer scale-100 hover:scale-110"
-          />
-          <Cog6ToothIconSoild
-            v-else
-            class="duration-300 transition-all h-8 w-8 text-white cursor-pointer scale-100 hover:scale-110 hover:rotate-180"
-          />
-        </el-tooltip>
+        <Cog6ToothIcon
+          v-if="!open"
+          class="duration-300 transition-all h-8 w-8 text-white cursor-pointer scale-100 hover:scale-110"
+        />
+        <Cog6ToothIconSoild
+          v-else
+          class="duration-300 transition-all h-8 w-8 text-white cursor-pointer scale-100 hover:scale-110 hover:rotate-180"
+        />
       </PopoverButton>
 
       <transition
@@ -55,7 +47,7 @@
 type audioType = '美音' | '英音'
 
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
-import { ElInputNumber, ElTooltip } from 'element-plus'
+import { ElInputNumber } from 'element-plus'
 import { Cog6ToothIcon } from '@heroicons/vue/24/outline'
 import { Cog6ToothIcon as Cog6ToothIconSoild } from '@heroicons/vue/20/solid'
 import { useSettingStore } from '@/stores/settingStore'

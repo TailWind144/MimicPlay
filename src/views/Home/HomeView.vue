@@ -20,13 +20,13 @@
       </div>
     </div>
     <div class="flex items-center justify-center flex-1 flex-col">
-      <div class="flex-1 flex w-screen px-20 gap-8 py-6 relative">
+      <div class="flex-1 flex w-screen px-8 sm:px-20 gap-8 py-6 relative">
         <transition appear name="bounce" mode="out-in">
           <BackToFirstTip v-show="index >= 2" class="absolute" @click="() => (index = 0)" />
         </transition>
         <PrevWordTip @click="prevWord" class="flex-1" :showWord="showWords[index - 1]" />
         <div class="flex flex-col gap-4 items-center justify-center" v-show="!isEmpty">
-          <div class="text-gray-600 w-fit text-8xl word text-center relative">
+          <div class="text-gray-600 w-fit text-4xl lg:text-8xl word text-center relative">
             <span>{{ showWords[index]?.english }}</span>
             <div class="absolute -right-14 top-1/2 -translate-y-1/2 flex">
               <VolumeIndex :word="audioWord" ref="audioRef" />

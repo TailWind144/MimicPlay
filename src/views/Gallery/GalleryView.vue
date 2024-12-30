@@ -1,15 +1,20 @@
 <template>
   <div class="h-screen flex flex-col">
-    <div class="flex justify-end py-11 px-16">
+    <div class="flex justify-end py-11 px-16 items-center">
       <NavLogo class="mr-auto" />
       <ArrowRightIcon
         @click="backToHome"
         class="h-8 w-8 text-gray-600 opacity-50 hover:opacity-100 duration-300 cursor-pointer"
       />
     </div>
-    <div class="flex px-20 flex-col gap-4 flex-1 h-full overflow-hidden">
+    <div class="flex px-10 sm:px-20 flex-col gap-4 flex-1 h-full overflow-hidden">
       <TagNav :tags="tags" :tag="tag" @click="handleChange" />
-      <BookList class="h-full overflow-y-auto pr-4" :books @click="handleClickBook" />
+      <BookList
+        class="overflow-y-auto pr-4 pb-4"
+        :books
+        :activePath="bookPath"
+        @click="handleClickBook"
+      />
     </div>
     <ViewFooter />
   </div>
@@ -28,6 +33,7 @@ import { computed, ref } from 'vue'
 import ViewFooter from '@/components/ViewFooter.vue'
 
 const dictStore = useDictStore()
+const bookPath = dictStore.dict?.path
 const router = useRouter()
 const gallery = ref<Gallery>({})
 const books = computed(() => gallery.value[tag.value])
