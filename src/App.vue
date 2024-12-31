@@ -20,7 +20,7 @@ const initDict = async () => {
     dictStore.dict = JSON.parse(localStorage.getItem('dict') as string)
     return
   }
-  const gallery = await fetchGallery('/minicplay/gallery.json')
+  const gallery = await fetchGallery('/mimicplay/gallery.json')
   const tag = Object.keys(gallery)[0]
   dictStore.dict = gallery[tag][0]
   localStorage.setItem('dict', JSON.stringify(dictStore.dict))
